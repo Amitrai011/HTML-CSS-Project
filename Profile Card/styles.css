@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://i.ibb.co/4tbyW5B/Screenshot-2021-06-04-at-20-53-22.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile {
+  background: linear-gradient(130deg, #74b9ff, #e66767);
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card {
+  width: 400px;
+  color: white;
+  text-align: center;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+p {
+  color: #dfbfd6;
+}
+
+.card h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+}
+
+.card p {
+  font-size: 1.125rem;
+  margin: 10px auto;
+  max-width: 330px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links i {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.links i:hover {
+  color: #ff01cf;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  background: white;
+  color: #ff01cf;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 30px 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ff01cf;
+  color: white;
+}
